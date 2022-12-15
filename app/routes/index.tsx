@@ -47,7 +47,7 @@ export default function Index() {
               ))}
               {path.map(({ x, y, height }, ix) => (
                 <Box key={ix} args={[1, 1, 1]} position={[x, height + 2, y]}>
-                  <meshPhongMaterial color='red' />
+                  <meshPhongMaterial color='magenta' />
                 </Box>
               ))}
             </Stage>
