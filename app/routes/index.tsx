@@ -59,7 +59,7 @@ export default function Index() {
                   position={[x, height / 2, y]}
                   scale={[1, height + 1, 1]}
                 >
-                  <meshPhongMaterial color='#f3f3f3c' />
+                  <meshPhongMaterial color='#f3f3f3' />
                 </mesh>
               )
             })}
