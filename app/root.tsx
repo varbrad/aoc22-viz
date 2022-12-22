@@ -1,5 +1,6 @@
 import type { LinksFunction, MetaFunction } from '@remix-run/node'
 import {
+  Link,
   Links,
   LiveReload,
   Meta,
@@ -28,6 +29,10 @@ export default function App() {
         <Links />
       </head>
       <body>
+        <nav>
+          <Link to='/d12'>12</Link>
+          <Link to='/d18'>18</Link>
+        </nav>
         <Outlet />
         <ScrollRestoration />
         <Scripts />

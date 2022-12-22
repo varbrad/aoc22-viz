@@ -43,7 +43,7 @@ export default function Index() {
   return (
     <div className='w-screen min-h-screen h-screen bg-slate-900 p-3'>
       <div className='w-full h-full bg-slate-800'>
-        <Canvas frameloop='demand'>
+        <Canvas frameloop='demand' onLoad={() => console.log('loaded')}>
           <OrthographicCamera makeDefault position={[-10, 8, 8]} />
           <Stage
             adjustCamera
